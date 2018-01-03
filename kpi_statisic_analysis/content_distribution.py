@@ -31,7 +31,7 @@ def radar_map(df):
     # ax.set_rgrids(np.arange(0, max_num, step))
     ax.set_rlabel_position(180)
     ax.set_thetagrids(angles * 180/np.pi, labels, fontproperties="SimHei")
-    ax.set_title("matplotlib雷达图", va='bottom', fontproperties="SimHei")
+    ax.set_title("content_type radar_map", va='bottom', fontproperties="SimHei")
     # 极径范围
     ax.set_rlim(0, max_num)
     ax.grid(True)
